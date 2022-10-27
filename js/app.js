@@ -75,7 +75,7 @@ function borrarResultados() { //ELIMINAR CONTENIDO DEL DOM
       gravity: 'top',
       position: 'right',
       style: {
-        background: "linear-gradient(to right, #00b09b, #96c93d)",
+        background: "rgb(96, 157, 214);",
       },
       onClick: function(){}
     }).showToast();
