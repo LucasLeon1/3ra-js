@@ -8,7 +8,8 @@
 }
 
 body{
-    background-color: rgb(3, 42, 48);
+    background: rgb(82,175,203);
+background: radial-gradient(circle, rgba(82,175,203,1) 0%, rgba(7,24,43,1) 100%);
 }
 
 .container{
@@ -17,10 +18,10 @@ body{
 }
 
 .conversor{
-    max-width: 680px;
+    max-width: 850px;
     margin: auto;
     text-align: center;
-    background: rgb(19, 47, 73);
+    background: rgb(38, 90, 99);
     padding: 40px 60px;
     border-radius: 5px;
 }
@@ -45,7 +46,7 @@ select{
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 0;
-    background: rgb(19, 47, 73);
+    background: radial-gradient(circle, rgba(82,175,203,1) 0%, rgba(7,24,43,1) 100%);
     border-radius: 5px;
 }
 
@@ -73,13 +74,13 @@ select{
 }
 
 #convertir:active{
-    background-color: rgb(19, 47, 73);
+    background-color: rgb(204, 125, 180);
 }
 
 .resultado{
-    max-width: 680px;
+    max-width: 850px;
     margin: 40px auto;
-    background: rgb(19, 47, 73);
+    background: rgb(38, 90, 99);
     padding: 40px 40px;
     border-radius: 5px;
 }
@@ -103,7 +104,7 @@ select{
 li{
     list-style: none;
     padding: 8px;
-    background-color: rgb(19, 47, 73);
+    background-color: rgb(179, 171, 197);
     margin: 8px 0;
     border-radius: 5px;
 }

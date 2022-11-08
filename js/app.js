@@ -1,4 +1,3 @@
-'use strict'
 
 //Datos de inputs
 const primerDivisa = document.getElementById('primer-divisa')
